@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Defender</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="game" width="600" height="400"></canvas>
+        <div id="info">
+            <h1>Space Defender</h1>
+            <p>Steuerung: <strong>Pfeiltasten</strong> oder <strong>Maus</strong>, Schießen mit <strong>Leertaste</strong>.</p>
+            <button id="start-btn">Spiel starten</button>
+            <div id="score">Punkte: 0</div>
+            <div id="highscores">
+                <h2>Bestenliste</h2>
+                <ol id="score-list"></ol>
+            </div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
